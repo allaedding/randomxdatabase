@@ -1,0 +1,10 @@
+3 table :
+player::player_ID,player_Name,player_Email,player_Password,player_Total,player_wins,player_Loss,Player_Stars
+
+match::Match_ID,Host_ID,Guest_ID,Winner_ID,Match_Date,Host_Rem_Amount,Guest_Rem_Amount
+
+history ::Match_ID,Host_ID,Guest_ID,Winner_ID,Match_Date,Match_Deleted_Date
+
+
+the player creat or join to just one match.
+all the "old ended or not" matches are moved to the history-table.
